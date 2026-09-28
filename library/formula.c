@@ -5,19 +5,19 @@ double a1, a2, b1, b2, c1, c2;
 
 int mainDeterminant()
 {
-  int formula = (a1 * b2) - (b1 *a2);
+  double formula = (a1 * b2) - (b1 *a2);
   return formula;
 }
 
 int xDeterminant()
 {
-  int formula = (c1 * b2) - (b1 * c2);
+  double formula = (c1 * b2) - (b1 * c2);
   return formula;
 }
 
 int yDeterminant()
 {
-  int formula = (a1 * c2) - (c1 * a2);
+  double formula = (a1 * c2) - (c1 * a2);
   return formula;
 }
 

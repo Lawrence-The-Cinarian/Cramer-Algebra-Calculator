@@ -5,7 +5,12 @@
 
 int main(void)
 {
-  userInput();
-  calculcateValue();
+  do 
+    {
+    userInput();
+    calculcateValue();
+    repeat();
+    }
+    while(true);
   return 0;
 }

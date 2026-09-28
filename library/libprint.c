@@ -3,7 +3,7 @@
 
 int userInput()
 {
-  char *variable[6] = {"a1", "b1", "c1", "a2", "b2", "c2"}
+  char *variable[6] = {"a1", "b1", "c1", "a2", "b2", "c2"};
   int var[6];
   for(int i = 0; i < 6; i++)
   {
@@ -28,7 +28,7 @@ int calculateValue()
 
 int repeat()
 {
-  char repo = '\0'
+  char repo = '\0';
   printf("Would you like to continue? (Y/N): ");
   scanf(" %c", &repo);
   if(!(repo == 'Y' || repo == 'y'))

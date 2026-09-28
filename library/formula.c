@@ -23,12 +23,12 @@ int yDeterminant()
 
 int forx()
 {
-  int x = xDeterminant() / mainDeterminant;
+  int x = xDeterminant() / mainDeterminant();
   return x;
 }
 
 int fory()
 {
-  int y = yDeterminant() / mainDeterminant;
+  int y = yDeterminant() / mainDeterminant();
   return y;
 }

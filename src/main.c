@@ -8,7 +8,7 @@ int main(void)
   do 
     {
     userInput();
-    calculcateValue();
+    calculateValue();
     repeat();
     }
     while(true);

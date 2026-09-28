@@ -3,6 +3,5 @@
 
 int userInput();
 int calculateValue();
-int repeat();
 
 #endif

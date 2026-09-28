@@ -5,11 +5,20 @@
 
 int main(void)
 {
+  char repo = '\0';
+  
   do 
     {
     userInput();
     calculateValue();
-    repeat();
+    
+    
+    printf("Would you like to continue? (Y/N): ");
+    scanf(" %c", &repo);
+      if(!(repo == 'Y' || repo == 'y'))
+      {
+       break;
+      }
     }
     while(true);
   return 0;

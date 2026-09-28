@@ -1,7 +1,7 @@
 #include "formula.h"
 
 int a1, a2, b1, b2, c1, c2;
-a1 = a2 = b1 = b2 = c1 = c2 = 0;
+a1 = 0, a2 = 0, b1 = 0, b2 = 0, c1 = 0, c2 = 0;
 
 int mainDeterminant()
 {

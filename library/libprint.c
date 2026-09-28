@@ -25,15 +25,3 @@ int calculateValue()
   printf("Main Determinant: %d\nY Determinant: %d\nX Determinant: %d\nX: %d\nY: %d\n\n", mainD, xD, yD, x, y);
   return 0;
 }
-
-int repeat()
-{
-  char repo = '\0';
-  printf("Would you like to continue? (Y/N): ");
-  scanf(" %c", &repo);
-  if(!(repo == 'Y' || repo == 'y'))
-  {
-    break;
-  }
-  return 0;
-}

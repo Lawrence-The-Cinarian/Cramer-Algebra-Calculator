@@ -1,6 +1,6 @@
 #include "formula.h"
 
-int a1, a2, b1, b2, c1, c2;
+double a1, a2, b1, b2, c1, c2;
 
 
 int mainDeterminant()

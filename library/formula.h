@@ -1,7 +1,7 @@
 #ifndef FORMULA_H
 #define FORMULA_H
 
-extern int a1, a2, b1, b2, c1, c2;
+extern double a1, a2, b1, b2, c1, c2;
 
 int mainDeterminant();
 int xDeterminant();

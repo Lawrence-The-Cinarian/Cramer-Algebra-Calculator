@@ -9,10 +9,7 @@ int main(void)
   
   do 
     {
-    userInput();
     calculateValue();
-    
-    
     printf("Would you like to continue? (Y/N): ");
     scanf(" %c", &repo);
       if(!(repo == 'Y' || repo == 'y'))
